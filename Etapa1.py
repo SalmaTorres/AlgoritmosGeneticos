@@ -183,7 +183,7 @@ def genetic_algorithm(image_orig, param_bounds, pop_size=15, generations=50):
 
 
 if __name__ == "__main__":
-    image_orig = cv2.imread("rostro.jpg")  # ruta de la imagen
+    image_orig = cv2.imread("V2.jpg")  # ruta de la imagen
     param_bounds = [(0, 1), (-0.05, 0.05), (-0.05, 0.05), (0.9, 1.1)]
 
     # Ejecutar el algoritmo genético

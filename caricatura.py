@@ -245,7 +245,7 @@ def resize_image_keep_ratio(image, max_height=400, max_width=400):
 # Ejecutar
 # ---------------------------
 if __name__ == "__main__":
-    image_orig = cv2.imread("maluma.jpg")  # Cambia la ruta
+    image_orig = cv2.imread("MJ.jpg")  # Cambia la ruta
     image_orig = resize_image_keep_ratio(image_orig, max_height=400, max_width=400)
     param_bounds = [
         (1.0, 1.5),  # ojos
